@@ -1,3 +1,4 @@
+#BSA BSA
 <?php
 /* vim: set expandtab sw=4 ts=4 sts=4: */
 /**
@@ -7,9 +8,6 @@
  * @package phpMyAdmin
  */
 
-/**
- * Gets a core script and starts output buffering work
- */
 require_once './libraries/common.inc.php';
 
 PMA_checkParameters(array('db', 'table', 'field'));
